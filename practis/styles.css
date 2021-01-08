@@ -1,0 +1,68 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}.container{
+    background-image: url('mainp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wrapper h1{
+    font-size: 2.4rem;
+}
+.wrapper span{
+    margin-left: 4rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: cyan;
+}
+.form_code{
+    text-align: center;
+}
+.form_code .find_code{
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+}
+.form_code button{
+    width: 20%;
+    margin:1rem auto 0rem;
+    background-color:aqua;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+.img_responsive{
+    max-width: 100%;
+}
+.product_section{
+    width: 90%;
+    margin: 1rem auto 0rem;
+}
+.product_div{
+    float: left;
+    width: 32%;
+    margin-left: 0.5rem;
+}
+.product_section:first-of-type{
+    margin-left: 0rem;
+}
+@media screen and (max-width:700px){
+    .product_div{
+        width: 100%;
+        float: none;
+    }
+}
